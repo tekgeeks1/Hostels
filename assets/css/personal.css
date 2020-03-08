@@ -1,0 +1,75 @@
+body {
+  background-color: #f0f0f7;
+}
+.navbar {
+  padding: 0px 10px 0px 0px !important;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: 638px;
+  background-color: #43425d;
+  position: fixed;
+  overflow: hidden;
+}
+.sidebar h5 {
+  margin-left: 8%;
+  margin-top: 10%;
+  color: white;
+  font-weight: bold;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  margin-top: 20%;
+  font-size: 15px;
+}
+.sidebar a:hover {
+  background-color: black;
+}
+.sidebar a span,
+.sidebar a i {
+  margin-left: 8%;
+}
+/* .logout {
+ position: absolute;
+ bottom: 10px;
+} */
+.fa {
+  color: #a5a4bf;
+}
+
+/* navbar  */
+.header {
+  margin-left: 160px;
+}
+.search {
+  border: none !important;
+  height: 50px;
+}
+.search:focus {
+  box-shadow: none !important;
+}
+.nav-right {
+  display: flex;
+}
+.fa-bell,
+#name {
+  margin: 10px;
+}
+.component {
+  margin-left: 160px;
+}
+
+/* hostels app */
+img{
+  height: 300px;
+}
+
+.top{
+  margin-top: 2%;
+}
+
+

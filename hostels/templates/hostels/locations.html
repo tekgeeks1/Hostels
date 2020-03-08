@@ -1,0 +1,21 @@
+
+{% extends "base.html" %}
+{% block contents%}
+
+<div class="row top">
+  {% for location in locations%}
+    <div class="col-md-4">
+        <div class="card mb-2">
+             <a href="{% url 'hostels:hostelsInLocation' location=location.name %}">
+                <img src="{{location.image.url}}" class="card-img-top">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">{{location.name}}</a></h5>
+                <p class="card-text">{{location.snippet}}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+{% endblock %}
